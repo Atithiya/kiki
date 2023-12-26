@@ -17,11 +17,6 @@ function About() {
   }, []);
   return (
     <section id="about" className="w-full">
-      {/* <div className=" text-center pt-9 bg-gradient-to-b from-gray-800 to-black ">
-        <div className="text-white font-semibold    text-center lg:text-start lg:text-7xl lg:mt-15 lg:ms-6 ">
-          <h2 className="text-4xl lg:text-7xl ">ABOUT ME</h2>
-          <progress className="progress w-56 bg-white"></progress>
-        </div> */}
       <div className="pt-14 p-8 bg-gradient-to-b from-gray-800 to-black">
         <div
           data-aos="fade-right"
