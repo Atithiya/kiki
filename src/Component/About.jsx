@@ -30,25 +30,22 @@ function About() {
             <img
               src={profilePicture}
               alt="profile-picture"
-              className="profile-picture w-[400px] lg:w-[500] shadow-md shadow-purple-600"
+              className="profile-picture w-[400px] lg:w-[500] shadow-md shadow-blue-600"
             />
           </div>
           <div className="lg:w-1/2 lg:text-start pt-5 lg:pt-0">
             <p className="text-white lg:text-lg ">
-              Hello, I'm Atithiya Inthorn, a proud graduate of Generation
-              Thailand's Junior Software Developer cohort 5 program. During this
-              incredible journey, I uncovered my passion for technology and
-              software development, leading me to embark on a new career path.
-              As a career switcher,
-              <br /> I transitioned from my previous studies in law to
-              wholeheartedly embrace web development. <br />
-              <br />
-              My ultimate aim is to craft bespoke websites that elevate people's
-              online experiences and spread positivity.
+              Hello, I'm Atithiya Inthorn, I graduated from the Generation
+              Thailand Bootcamp, where I acquired essential technical and soft
+              skills for transitioning from a two-year career in the document
+              verification industry. My genuine interest in software development
+              is supported by robust technical abilities. Dedicated,
+              hardworking, and consistently eager to learn, I am ready to apply
+              my skills in a challenging QA role.
             </p>
             <a
               href={CV}
-              className="mt-5 btn lg:text-base btn-outline text-xs rounded-full w-full lg:w-48  bg-gradient-to-r from-violet-500 to-fuchsia-500 "
+              className="mt-5 btn lg:text-base btn-active text-xs text-white rounded-full w-full lg:w-48  bg-gradient-to-r from-cyan-500 to-blue-500 "
               target="_blank"
             >
               Download CV <AiOutlineDownload />
@@ -61,15 +58,3 @@ function About() {
 }
 
 export default About;
-
-{
-  /* <a
-href={resume}
-download={`fullName_Resume.pdf`}
-rel='noopener noreferrer'
-target='_blank'
->
-<button className='btn-resume'></button>
-</a> */
-}
-//ส่งอีเมล  mail to

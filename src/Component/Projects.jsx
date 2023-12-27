@@ -95,7 +95,7 @@ function Projects() {
           {project.map((item, index) => (
             <div
               key={index}
-              className="card w-full  mt-5 lg:mt-0 bg-zinc-900 shadow-md shadow-purple-600  hover:scale-105 duration-200"
+              className="card w-full  mt-5 lg:mt-0 bg-zinc-900 shadow-md shadow-blue-600  hover:scale-105 duration-200"
             >
               <figure>
                 <img
@@ -112,14 +112,14 @@ function Projects() {
                   <a
                     href={item.github}
                     target="_blank"
-                    className="btn lg:text-base btn-outline text-xs rounded-full w-full lg:w-32  bg-gradient-to-r from-violet-500 to-fuchsia-500"
+                    className="btn lg:text-base btn-active text-xs text-white rounded-full w-full lg:w-32  bg-gradient-to-r from-cyan-500 to-blue-500"
                   >
                     Github <AiFillGithub />
                   </a>
                   <a
                     href={item.demo}
                     target="_blank"
-                    className="btn lg:text-base btn-outline text-xs rounded-full w-full lg:w-32  bg-gradient-to-r from-violet-500 to-fuchsia-500"
+                    className="btn lg:text-base btn-active text-xs text-white rounded-full w-full lg:w-32  bg-gradient-to-r from-cyan-500 to-blue-500"
                   >
                     Link <FiExternalLink />
                   </a>
@@ -128,14 +128,14 @@ function Projects() {
             </div>
           ))}
         </div>
-        <div className="p-8 lg:flex lg:justify-end">
+        {/* <div className="p-8 lg:flex lg:justify-end">
           <Link
             to={"/MoreProjects"}
-            className="btn lg:text-base btn-outline text-xs rounded-full w-full lg:w-52  bg-gradient-to-r from-violet-500 to-fuchsia-500"
+            className="btn lg:text-base btn-active text-xs text-white rounded-full w-full lg:w-52  bg-gradient-to-r from-cyan-500 to-blue-500"
           >
             READ MORE <FiExternalLink />
           </Link>
-        </div>
+        </div> */}
       </div>
     </section>
   );

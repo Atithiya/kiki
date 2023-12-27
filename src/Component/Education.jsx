@@ -58,7 +58,7 @@ function Education() {
               </p>
             </div>
           </div> */}
-          <div className="card w-full shadow-md shadow-purple-600 bg-zinc-900  ">
+          <div className="card w-full shadow-md shadow-blue-600 bg-zinc-900  ">
             <div className="card-body">
               <h2 className="card-title">Junior Software Developer Cohort 5</h2>
               <p>Generation Thailand</p>
@@ -70,7 +70,7 @@ function Education() {
               </p>
             </div>
           </div>
-          <div className="card w-full mt-5 shadow-md shadow-purple-600 bg-zinc-900  ">
+          <div className="card w-full mt-5 shadow-md shadow-blue-600 bg-zinc-900  ">
             <div className="card-body">
               <h2 className="card-title">Lawyers Council of Thailand</h2>
               <p>September 2022 - March 2023</p>
@@ -78,12 +78,11 @@ function Education() {
           </div>
           {/* card 2 */}
 
-          <div className="card w-full mt-5  duration-200 shadow-md shadow-purple-600 bg-zinc-900 ">
+          <div className="card w-full mt-5  duration-200 shadow-md shadow-blue-600 bg-zinc-900 ">
             <div className="card-body">
               <h2 className="card-title ">Bachelor of Law</h2>
               <p>Ramkhamhaeng University</p>
               <p>2017-2019</p>
-              {/* <p>Law and legal document preparation.</p> */}
             </div>
           </div>
         </div>

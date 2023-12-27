@@ -42,7 +42,7 @@ function Contact() {
           <div className=" ">
             <a
               href="mailto:atithiya.inthorn@gmail.com"
-              className="btn btn-outline text-xs bg-gradient-to-r  from-violet-500 to-fuchsia-500 lg:text-base lg:w-72 lg:h-40 lg:rounded-2xl  h-28 flex flex-col"
+              className="btn btn-active text-xs text-white bg-gradient-to-r from-cyan-500 to-blue-500 lg:text-base lg:w-72 lg:h-40 lg:rounded-2xl  h-28 flex flex-col"
             >
               <div className="text-3xl lg:text-6xl">
                 <MdOutlineMail />
@@ -54,7 +54,7 @@ function Contact() {
             <a
               href="https://linkedin.com/in/atithiya"
               target="_blank"
-              className="btn btn-outline text-xs bg-gradient-to-r  from-violet-500 to-fuchsia-500 lg:text-base lg:w-72 lg:h-40 h-28 lg:rounded-2xl flex flex-col"
+              className="btn btn-active text-xs text-white bg-gradient-to-r from-cyan-500 to-blue-500 lg:text-base lg:w-72 lg:h-40 h-28 lg:rounded-2xl flex flex-col"
             >
               <div className="text-3xl lg:text-6xl">
                 <IoLogoLinkedin />
@@ -66,7 +66,7 @@ function Contact() {
             <a
               href="https://github.com/Atithiya"
               target="_blank"
-              className="btn btn-outline text-xs bg-gradient-to-r  from-violet-500 to-fuchsia-500  lg:text-base lg:w-72 lg:h-40 h-28 lg:rounded-2xl flex flex-col"
+              className="btn btn-active text-xs text-white bg-gradient-to-r from-cyan-500 to-blue-500  lg:text-base lg:w-72 lg:h-40 h-28 lg:rounded-2xl flex flex-col"
             >
               <div className="text-3xl lg:text-6xl">
                 <BsGithub />
@@ -78,7 +78,7 @@ function Contact() {
             <a
               href={CV}
               target="_blank"
-              className="btn btn-outline text-xs bg-gradient-to-r  from-violet-500 to-fuchsia-500  lg:text-base lg:w-72 lg:h-40 h-28  lg:rounded-2xl flex flex-col"
+              className="btn btn-active text-xs text-white bg-gradient-to-r from-cyan-500 to-blue-500  lg:text-base lg:w-72 lg:h-40 h-28  lg:rounded-2xl flex flex-col"
             >
               <div className="text-3xl lg:text-6xl">
                 <CgFileDocument />
@@ -86,34 +86,6 @@ function Contact() {
               <div>DOWNLOAD CV</div>
             </a>
           </div>
-
-          {/* <div>
-            <a
-              href="https://github.com/Atithiya"
-              target="_blank"
-              className="btn btn-outline btn-circle   bg-gradient-to-r from-violet-500 to-fuchsia-500 lg:text-base lg:w-72 lg:h-40 lg:rounded-2xl"
-            >
-              <BsGithub />
-            </a>
-          </div>
-          <div>
-            <a
-              href="https://www.linkedin.com/in/atithiya"
-              target="_blank"
-              className="btn btn-outline btn-circle  bg-gradient-to-r from-violet-500 to-fuchsia-500 lg:text-base lg:w-72 lg:h-40 lg:rounded-2xl"
-            >
-              <BsLinkedin />
-            </a>
-          </div>
-          <div>
-            <a
-              href={CV}
-              className=" btn lg:text-base btn-outline text-xs rounded-full w-full bg-gradient-to-r from-violet-500 to-fuchsia-500 lg:w-72 lg:h-40 lg:rounded-2xl"
-              target="_blank"
-            >
-              Download CV <AiOutlineDownload />
-            </a>
-          </div> */}
         </div>
       </div>
     </section>

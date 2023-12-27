@@ -22,7 +22,6 @@ function Experience() {
       jobDescription:
         "Verified identity documents before establishing customer accounts, in line with our commitment to security and compliance",
     },
-    // Add more skills as needed
   ]);
   useEffect(() => {
     AOS.init({
@@ -50,7 +49,7 @@ function Experience() {
           {experience.map((item, index) => (
             <div
               key={index}
-              className="card w-full shadow-md shadow-purple-600 bg-zinc-900 "
+              className="card w-full shadow-md shadow-blue-600 bg-zinc-900 "
             >
               <div className="card-body ">
                 <div className="card-title ">{item.title}</div>

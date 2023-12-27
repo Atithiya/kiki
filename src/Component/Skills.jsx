@@ -95,7 +95,7 @@ function Skills() {
           {skills.map((skill, index) => (
             <div
               key={index}
-              className="card w-full  text-neutral-content  bg-zinc-900 shadow-md shadow-purple-600  hover:scale-105 duration-200 text-xs lg:text-lg"
+              className="card w-full  text-neutral-content  bg-zinc-900 shadow-md shadow-blue-600  hover:scale-105 duration-200 text-xs lg:text-lg"
             >
               <div className="card-body items-center text-center">
                 <div className="card-title text-5xl lg:text-6xl">
