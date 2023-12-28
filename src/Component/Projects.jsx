@@ -9,7 +9,7 @@ import "aos/dist/aos.css";
 import { Link } from "react-router-dom";
 // img
 import keepFitImg from "../assets/pro2-keepfit.jpg";
-import portImg from "../assets/pro5-portfo.jpg";
+import portImg from "../assets/pro5-port.png";
 import adminImg from "../assets/pro7-admin.jpg";
 import weatherImg from "../assets/pro4-weather.jpg";
 import colmarImg from "../assets/pro6-colmar.jpg";
@@ -38,8 +38,8 @@ function Projects() {
       cardTitle: "Portfolio",
       cardDetail:
         "Developed a static portfolio from the ground up, using ReactJS, CSS, and Tailwind CSS, while also implementing responsive web design for mobile devices",
-      github: "https://github.com/Atithiya/portfolio04/tree/main",
-      demo: "https://atithiya-portfolio.vercel.app/",
+      github: "https://github.com/Atithiya/portfoliQA",
+      demo: "https://atithiya-in-portfolio.vercel.app/",
     },
     {
       image: adminImg,
