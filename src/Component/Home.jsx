@@ -36,7 +36,7 @@ function Home() {
           className="text-center  font-semibold lg:text-start lg:ms-10 text-3xl lg:text-5xl  type italic "
         >
           <TypeAnimation
-            sequence={["HELLO", 500, "TEST ENGINEER", 500, "TEST", 500]}
+            sequence={["HELLO", 500, "SOFTWARE TESTER", 500, "SOFTWARE", 500]}
             style={{ fontSize: "1em" }}
             repeat={Infinity}
           />
