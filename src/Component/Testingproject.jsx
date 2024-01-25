@@ -27,27 +27,29 @@ function Projects() {
   const [project, setProject] = useState([
     {
       image: keepFitImg,
-      cardTitle: "KeepFit",
-      cardDetail:
-        "Created a workout app for elderly users with a team, employing agile methods and receiving mentorship from an experienced developer. Designed 'My Activity' using Figma, ReactJS, and TailwindCSS, and crafted Keepfit's logo",
-      github: "https://github.com/peth12/keepfit-react",
-      demo: "https://keepfit-react.vercel.app/",
+      cardTitle: "Test case",
+      cardDetail: "Test case for log in page ",
+      demo: "https://docs.google.com/spreadsheets/d/1Exmtcz-MWah1MxQrFPX8lU1-vZJmzWmdLdBud1cDYcs/edit#gid=1156115693",
     },
     {
       image: colmarImg,
-      cardTitle: "Colmar Academy",
-      cardDetail:
-        "Created my first static website with a focus on responsive web design, meeting specific requirements, using HTML and pure CSS",
-      github: "https://github.com/Atithiya/Colmar-Academy-Test",
-      demo: "https://colmar-academy-test.vercel.app/",
+      cardTitle: "Test case",
+      cardDetail: "Test case for register page",
+      demo: "https://docs.google.com/spreadsheets/d/1k4F98jPn8zjbICog5iZ6jmYXvqGFk3lyB7n14XVKOZ0/edit#gid=0",
     },
     {
       image: weatherImg,
-      cardTitle: "Weather App",
-      cardDetail:
-        "This web application uses HTML, CSS, and JavaScript to fetch and display current weather information from the OpenWeatherMap API for a specified location",
-      github: "https://github.com/Atithiya/weatherApp/",
-      demo: "https://weather-app-atithiya.vercel.app/",
+      cardTitle: "Flowchart",
+      cardDetail: "Log in & Register flowchart",
+      //   github: "https://github.com/Atithiya/weatherApp/",
+      demo: "https://drive.google.com/file/d/1BLYPM4F7-q9cts9ol_KU3MnfJKYXpsI7/view",
+    },
+    {
+      image: registerImg,
+      cardTitle: "Flowchart",
+      cardDetail: "Grade checking flowchart",
+      //   github: "https://github.com/Atithiya/GenerateQrCode",
+      demo: "https://drive.google.com/file/d/1vkL17_bcC8q1lBHp-PGaRHJqRbPB9F6u/view",
     },
   ]);
 
@@ -58,14 +60,14 @@ function Projects() {
           data-aos="fade-right"
           className="text-white font-semibold  text-center lg:text-start lg:text-7xl lg:ms-6 p-9"
         >
-          <h2 className="text-4xl lg:text-5xl ">PROJECTS</h2>
+          <h2 className="text-4xl lg:text-5xl ">TESTING SIDE PROJECT</h2>
           {/* <progress className="progress w-56 bg-white"></progress> */}
         </div>
 
         {/* Card */}
         <div
           data-aos="fade-down"
-          className="w-full  sm:flex sm:justify-center  lg:grid lg:grid-cols-3 lg:gap-10 text-white gap-10  lg:ps-8 lg:pe-8 "
+          className="w-full  sm:flex sm:justify-center  lg:grid lg:grid-cols-4 lg:gap-10 text-white gap-10  lg:ps-8 lg:pe-8 "
         >
           {/* .map ตรงนี้ โดยครอบทั้ง div  */}
           {project.map((item, index) => (
@@ -74,24 +76,24 @@ function Projects() {
               className="card w-full  mt-5 lg:mt-0 bg-zinc-900 shadow-md shadow-blue-600  hover:scale-105 duration-200"
             >
               <figure>
-                <img
+                {/* <img
                   src={item.image}
                   alt="car!"
                   className="h-full w-full lg:h-48"
-                />
+                /> */}
               </figure>
               <div className="card-body">
                 <h2 className="card-title">{item.cardTitle}</h2>
                 <p className="text-sm">{item.cardDetail}</p>
 
                 <div className="card-actions justify-center mt-5 ">
-                  <a
+                  {/* <a
                     href={item.github}
                     target="_blank"
                     className="btn lg:text-base btn-active text-xs text-white rounded-full w-full lg:w-32  bg-gradient-to-r from-cyan-500 to-blue-500"
                   >
                     Github <AiFillGithub />
-                  </a>
+                  </a> */}
                   <a
                     href={item.demo}
                     target="_blank"

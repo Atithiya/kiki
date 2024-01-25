@@ -9,6 +9,8 @@ import Projects from "./Projects";
 import Contact from "./Contact";
 import Experience from "./Experience";
 import Footer from "./Footer";
+import Testingskills from "./Testingskills";
+import Testingproject from "./Testingproject";
 
 function App() {
   return (
@@ -18,7 +20,9 @@ function App() {
       <About />
       <Education />
       <Experience />
+      <Testingskills />
       <Skills />
+      <Testingproject />
       <Projects />
       <Contact />
       <Footer />

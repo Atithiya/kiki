@@ -1,17 +1,9 @@
 import React, { useState } from "react";
-import { AiFillHtml5 } from "react-icons/ai";
-import { BiLogoCss3 } from "react-icons/bi";
 import { BiLogoJavascript } from "react-icons/bi";
-import { BiLogoReact } from "react-icons/bi";
-import { BsFillBootstrapFill } from "react-icons/bs";
-import { SiTailwindcss } from "react-icons/si";
-import { FaFigma } from "react-icons/fa";
-import { BsGit } from "react-icons/bs";
 import { useEffect } from "react";
-import { BiLogoNodejs } from "react-icons/bi";
-import { SiExpress } from "react-icons/si";
-import { BiLogoMongodb } from "react-icons/bi";
-import { SiSqlite } from "react-icons/si";
+import { TiDocumentText } from "react-icons/ti";
+import { RiFlowChart } from "react-icons/ri";
+import { FaProjectDiagram } from "react-icons/fa";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
@@ -26,53 +18,30 @@ function Skills() {
   }, []);
   const [skills, setSkills] = useState([
     {
-      logo: <AiFillHtml5 />,
-      logoName: "HTML",
+      logo: <TiDocumentText />,
+      logoName: "Test Case",
     },
     {
-      logo: <BiLogoCss3 />,
-      logoName: "CSS",
+      logo: <TiDocumentText />,
+      logoName: "Test Scenario",
     },
     {
-      logo: <BsFillBootstrapFill />,
-      logoName: "Bootstrap",
+      logo: <TiDocumentText />,
+      logoName: "Log defect",
     },
     {
-      logo: <SiTailwindcss />,
-      logoName: "Tailwind CSS",
+      logo: <TiDocumentText />,
+      logoName: "Test Report",
     },
     {
-      logo: <BiLogoJavascript />,
-      logoName: "JavaScript",
+      logo: <RiFlowChart />,
+      logoName: "Flowchart",
     },
     {
-      logo: <BiLogoReact />,
-      logoName: "ReactJS",
+      logo: <FaProjectDiagram />,
+      logoName: "ER Diagram",
     },
-    {
-      logo: <BiLogoNodejs />,
-      logoName: "NodeJS",
-    },
-    {
-      logo: <SiExpress />,
-      logoName: "ExpressJs",
-    },
-    {
-      logo: <BiLogoMongodb />,
-      logoName: "MongoDB",
-    },
-    {
-      logo: <SiSqlite />,
-      logoName: "SQLite",
-    },
-    {
-      logo: <FaFigma />,
-      logoName: "Figma",
-    },
-    {
-      logo: <BsGit />,
-      logoName: "Git",
-    },
+
     // Add more skills as needed
   ]);
 
@@ -83,7 +52,7 @@ function Skills() {
           data-aos="fade-right"
           className="text-white font-semibold  text-center p-9 lg:text-start lg:ms-6 "
         >
-          <h2 className="text-4xl lg:text-5xl ">TECHNICAL SKILLS</h2>
+          <h2 className="text-4xl lg:text-5xl ">TESTING SKILLS</h2>
           {/* <progress className="progress w-56 bg-white"></progress> */}
         </div>
 
