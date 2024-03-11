@@ -27,29 +27,27 @@ function Projects() {
   const [project, setProject] = useState([
     {
       image: keepFitImg,
-      cardTitle: "Test case",
-      cardDetail: "Test case for log in page ",
-      demo: "https://docs.google.com/spreadsheets/d/1Exmtcz-MWah1MxQrFPX8lU1-vZJmzWmdLdBud1cDYcs/edit#gid=1156115693",
+      cardTitle: "Test Case",
+      cardDetail: "Test case & Test Scenario for Sign Up page ",
+      demo: "https://docs.google.com/spreadsheets/d/15FPK0khDCfa7M1nA-sVyTSKoDY9LD38TWJHnBL4_t64/edit#gid=325026868",
     },
     {
       image: colmarImg,
-      cardTitle: "Test case",
-      cardDetail: "Test case for register page",
+      cardTitle: "Test Case",
+      cardDetail: "Test case for Register page",
       demo: "https://docs.google.com/spreadsheets/d/1k4F98jPn8zjbICog5iZ6jmYXvqGFk3lyB7n14XVKOZ0/edit#gid=0",
     },
     {
       image: weatherImg,
-      cardTitle: "Flowchart",
-      cardDetail: "Log in & Register flowchart",
-      //   github: "https://github.com/Atithiya/weatherApp/",
-      demo: "https://drive.google.com/file/d/1BLYPM4F7-q9cts9ol_KU3MnfJKYXpsI7/view",
+      cardTitle: "Test Case",
+      cardDetail: "Test case for Student Quiz",
+      demo: "https://docs.google.com/spreadsheets/d/1k4F98jPn8zjbICog5iZ6jmYXvqGFk3lyB7n14XVKOZ0/edit#gid=0",
     },
     {
       image: registerImg,
-      cardTitle: "Flowchart",
-      cardDetail: "Grade checking flowchart",
-      //   github: "https://github.com/Atithiya/GenerateQrCode",
-      demo: "https://drive.google.com/file/d/1vkL17_bcC8q1lBHp-PGaRHJqRbPB9F6u/view",
+      cardTitle: "Test Case",
+      cardDetail: "Test case for Student Submission",
+      demo: "https://docs.google.com/spreadsheets/d/1Bq7sQLCkfWOfSQgWzZG1i4XKfi4Lfvjjy31Zl4mwsKI/edit#gid=0",
     },
   ]);
 

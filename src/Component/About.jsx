@@ -41,7 +41,7 @@ function About() {
               verification industry. My genuine interest in software development
               is supported by robust technical abilities. Dedicated,
               hardworking, and consistently eager to learn, I am ready to apply
-              my skills in a challenging Software Tester role.
+              my skills in a challenging Quality Assurance role.
             </p>
             <a
               href={CV}

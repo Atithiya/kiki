@@ -10,15 +10,15 @@ function Experience() {
   const [experience, setExperience] = useState([
     {
       title: "Quality Control Officer",
-      company: "ShopeeXpress (Thailand) Co., Ltd.",
-      year: "July 2022 - Present",
+      company: "SPX EXPRESS (Thailand) Co., Ltd.",
+      year: "September 2021 - February 2024",
       jobDescription:
         "Reviewed employee work to guarantee parcel deliveries adhered to established processes",
     },
     {
       title: "KYC Officer",
-      company: "Bitkub Online Co., Ltd.",
-      year: "April 2021 - June 2022",
+      company: "Bitkub Online Co., Ltd. ",
+      year: "April 2021 - July 2021 (Contract)",
       jobDescription:
         "Verified identity documents before establishing customer accounts, in line with our commitment to security and compliance",
     },

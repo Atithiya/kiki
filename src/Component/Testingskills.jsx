@@ -3,7 +3,10 @@ import { BiLogoJavascript } from "react-icons/bi";
 import { useEffect } from "react";
 import { TiDocumentText } from "react-icons/ti";
 import { RiFlowChart } from "react-icons/ri";
-import { FaProjectDiagram } from "react-icons/fa";
+import { SiRobotframework } from "react-icons/si";
+import { MdOutlineBugReport } from "react-icons/md";
+import { TbReportSearch } from "react-icons/tb";
+import { ImFileVideo } from "react-icons/im";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
@@ -22,15 +25,15 @@ function Skills() {
       logoName: "Test Case",
     },
     {
-      logo: <TiDocumentText />,
+      logo: <ImFileVideo />,
       logoName: "Test Scenario",
     },
     {
-      logo: <TiDocumentText />,
+      logo: <MdOutlineBugReport />,
       logoName: "Log defect",
     },
     {
-      logo: <TiDocumentText />,
+      logo: <TbReportSearch />,
       logoName: "Test Report",
     },
     {
@@ -38,8 +41,8 @@ function Skills() {
       logoName: "Flowchart",
     },
     {
-      logo: <FaProjectDiagram />,
-      logoName: "ER Diagram",
+      logo: <SiRobotframework />,
+      logoName: "Robot Framework",
     },
 
     // Add more skills as needed
